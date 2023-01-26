@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>CV Rebecca Peters</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>CV REBECCA PETERS</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#datos_personales" class="seleccionado" onclick="seleccionar(this)">Datos Personales</a></li>
+                            <li><a href="#eeducacion" onclick="seleccionar(this)">Educación</a></li>
+                            <li><a href="#experiencia" onclick="seleccionar(this)">Experiencia</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">Habilidades</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Portfolio</a></li>
+                            
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <section id="datos_personales">
+
+        <img src="imgs/29.jpg" alt="foto Rebecca Peters" id="picture">
+
+        <p class="nombre_apellido">REBECCA PETERS</p>
+
+        <p>Fecha de Nacimiento: 01/05/1984</p>
+
+        <p>Dirección: Dr. White Oak 2072</p>
+
+        <p>Telefono: (955) 653-2593</p>
+
+    </section>
+
+    <hr>
+
+    <section id="educacion">
+
+        <article>
+            <p><span id="titulo">Tecnico Superior en Programacion</span></p>
+            <p>Educacion recibida en Escuela Superior de Programacion, 
+            ubicada en C.A.B.A., provincia de Buenos Aires. Entre los años 2006 a 2009.</p>
+        </article>
+
+        <br>
+
+        <article>
+            <p><span id="titulo">Ingenieria en Informatica</span></p>
+            <p>Educacion recibida en universidad de Ingenieria Argentina, ubicada en C.A.B.A.,
+            provincia de Buenos Aires. Entre los años 2010 a 2018
+            </p>
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section id="experiencia">
+
+        <article>
+            <p><span id="titulo">Servicios Integrales Informaticos</span></p>
+            <p>Desde 2009 al presente</p>
+            <p>Lorem ipsum dolrrupti quibusdam adipisci vel culpa laudantium sunt dolore
+               mque iusto voluptas facilis esse reprehenderit itaque ea velit nulla, exercitationem
+               nisi?</p>
+            <p>Lorem ipsum blanditiis facilis fugiat, dolorum, earum reiciendi, placeat earum voluptas
+               deserunt, libero natus ex neque, fuga veniam.</p>
+        </article>
+
+        <br>
+
+        <article>
+            <p><span id="titulo">Web Services</span></p>
+            <p>Desde 2003 al 2009</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+               deserunt sunt quae quod nisi, quia delectus itaque natus dolorem dolor mollitia. 
+               Enim aperiam autem, nobis eaque repellat illum neque placeat.</p>
+            <p>Alias, excepturi, obcaecati voluptatem inventore blanditiis dicta soluta vel,
+               doloribus at recusandae accusamus? Necessitatibus atque eveniet omnis magnam. 
+               Molestiae distinctio natus error dignissimos fuga quam, obcaecati ratione 
+               fugit cumque ipsa.</p>
+            <p>Nulla consectetur laborum rerum veritatis accusamus qui et expedita 
+               voluptates eos minima alias aut autem, enim optio cumque. Praesentium nesciunt 
+               aperiam illo iure nemo cumque numquam voluptatem maxime nisi cupiditate?</p>
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section class="contenedor-habilidades" id="habilidades">
+        <h3>Habilidades</h3>
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista">Html & Css</span></p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista">JavaScript</span></p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista">React.js</span></p>
+                <span class="porcentaje">45%</span>
+            </div>
+            <div class="barra">
+                <div id="react" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista">Vue.js</span></p>
+                <span class="porcentaje">25%</span>
+            </div>
+            <div class="barra">
+                <div id="vue" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </section> 
+    
+    <hr>
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imgs/287.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Description</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
